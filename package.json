@@ -18,6 +18,8 @@
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-list": "^0.8.8",
+    "react-list-lazy-load": "^1.1.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
   },
@@ -41,6 +43,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^22.4.2",
     "jest-fetch-mock": "^1.4.2",
+    "json-loader": "^0.5.7",
     "postcss": "^6.0.19",
     "postcss-autoreset": "^2.0.2",
     "postcss-cssnext": "^3.1.0",

@@ -5,7 +5,7 @@ module.exports = {
             path: ['src', 'node_modules']
         },
         stylelint: {},
-        'postcss-autoreset': {},
+        // 'postcss-autoreset': {},
         'postcss-cssnext': {},
         precss: {},
         cssnano: {},

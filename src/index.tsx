@@ -1,22 +1,13 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import createBrowserHistory from 'history/createBrowserHistory';
+
 import { Provider } from 'mobx-react';
-import { RouterStore, syncHistoryWithStore } from 'mobx-react-router';
+// import { RouterStore, syncHistoryWithStore } from 'mobx-react-router';
 import { Router, Route } from 'react-router';
 
 import App from './layout/App/App';
-
-// import './assets/css/main.css';
-
-const browserHistory = createBrowserHistory();
-const routingStore = new RouterStore();
-
-const stores = {
-    routing: routingStore,
-};
-
-const history = syncHistoryWithStore(browserHistory, routingStore);
+import stores from 'stores';
+import { history } from 'historyConfig';
 
 ReactDOM.render(
     <Provider {...stores}>
