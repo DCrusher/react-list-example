@@ -14,7 +14,7 @@
             true,
             "check-space"
         ],
-        "cyclomatic-complexity": [true, 3],
+        "cyclomatic-complexity": [true, 5],
         "curly": true,
         "encoding": true,
         "eofline": true,

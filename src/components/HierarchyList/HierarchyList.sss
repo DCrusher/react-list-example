@@ -1,0 +1,23 @@
+@import 'assets/css/constants.sss'
+
+.list
+    list-style: none
+    padding: 0
+    margin: 0
+    margin-left: $commonIndentation
+
+    li
+        .foldingSign
+            display: inline-block
+            width: 10px
+
+        div
+            padding: $commonIndentation
+            cursor: pointer
+            
+            &.itemNode
+
+                &:hover
+                    background-color: $gray
+
+
